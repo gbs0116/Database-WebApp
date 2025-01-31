@@ -1,6 +1,7 @@
-# Pet Adoption Database System (Minimal Web Integration) - The University of Texas at Arlington, School Project
+# Pet Adoption Database System (Minimal Web Integration) 
+- The University of Texas at Arlington, School Project
 
-A relational database system designed to streamline the pet adoption process. This project manages data related to pets, owners, breeds, adoptions, veterinarians, and locations to improve efficiency and decision-making for adoption agencies.
+This project is a relational database system designed to store and manage pet adoption data. It organizes information about pets, owners, breeds, adoptions, and locations, providing structured queries for analysis. While primarily a database system, it includes a minimal Flask-based web interface for displaying adoption records.
 
 ---
 ##  **Files and Their Purpose**
