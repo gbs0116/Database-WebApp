@@ -2,8 +2,8 @@
 
 A relational database system designed to streamline the pet adoption process. This project manages data related to pets, owners, breeds, adoptions, veterinarians, and locations to improve efficiency and decision-making for adoption agencies.
 
-
-## 📝 **Files and Their Purpose**
+---
+##  **Files and Their Purpose**
 ### 🔹 **Database Files (`database/`)**
 - **`dbDDL.sql`** – *Data Definition Language (DDL)*  
   - Creates the database schema (tables, constraints, primary/foreign keys).  
@@ -32,9 +32,4 @@ A relational database system designed to streamline the pet adoption process. Th
 
 ---
 
-## 🚀 **Setup Instructions**
-### 1️⃣ **Clone the Repository**
-```bash
-git clone https://github.com/gbs0116/Database-WebApp.git
-cd Database-WebApp
-
+ 
