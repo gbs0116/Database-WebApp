@@ -1,4 +1,4 @@
-# Pet Adoption Database System
+# Pet Adoption Database System (Minimal Web Integration)
 
 A relational database system designed to manage and streamline pet adoptions. This project focuses on structuring and querying pet adoption data, including pets, owners, breeds, adoptions, veterinarians, and locations, to improve efficiency for adoption agencies.
 
