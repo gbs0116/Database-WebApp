@@ -1,21 +1,40 @@
-# Pet Adoption Database System
+# Pet Adoption Database System (Minimal Web Integration)
 
-A relational database system designed to manage and streamline pet adoptions. This project focuses on structuring and querying pet adoption data, including pets, owners, breeds, adoptions, and locations, to improve efficiency for adoption agencies.
+A relational database system designed to streamline the pet adoption process. This project manages data related to pets, owners, breeds, adoptions, veterinarians, and locations to improve efficiency and decision-making for adoption agencies.
 
-## Features
-- **Database Schema Design:** Developed a relational database using ER/EER modeling to define entities and relationships.
-- **SQL Query Implementation:** Includes SQL scripts for:
-  - Creating tables and constraints (`dbDDL.sql`).
-  - Inserting, updating, and deleting records (`dbDML.sql`).
-  - Querying adoption trends and available pets by breed/location (`dbSQL.sql`).
-  - Dropping tables and cleaning up the database (`dbDROP.sql`).
-- **Basic Web Interface (Flask + HTML, Minimal Interaction):**  
-  - A simple interface to view database records using `app.py` and `index.html`.  
-  - Not a full-featured web application—primarily for demonstrating database queries.
 
-## Technologies Used
-- SQL (DDL, DML, Aggregation, Joins)
-- Python (Flask for minimal web integration)
-- ER/EER Modeling
+## 📝 **Files and Their Purpose**
+### 🔹 **Database Files (`database/`)**
+- **`dbDDL.sql`** – *Data Definition Language (DDL)*  
+  - Creates the database schema (tables, constraints, primary/foreign keys).  
+  - Defines the relationships between tables (pets, owners, adoptions, etc.).  
 
- 
+- **`dbDML.sql`** – *Data Manipulation Language (DML)*  
+  - Inserts sample data into tables (e.g., adding pets, owners, and adoption records).  
+  - Can be modified to insert custom data.  
+
+- **`dbSQL.sql`** – *SQL Queries for Analysis*  
+  - Contains pre-written SQL queries to retrieve insights such as:
+    - Available pets by breed and location.
+    - Adoption trends and pet statistics.
+  - This file helps users test and interact with the dataset.  
+
+- **`dbDROP.sql`** – *Database Cleanup*  
+  - Removes tables and clears the database if a reset is needed.  
+  - Use with caution, as it will delete all data.  
+
+### 🔹 **Web Interface (`web/`)**
+- **`app.py`** – The Flask backend that connects to the database and serves data via a simple interface.  
+- **`templates/index.html`** – A basic HTML front-end to display adoption records.  
+
+### 🔹 **Documentation (`docs/`)**
+- **`Final_Report.pdf`** – Contains details about the database structure, relationships, and the overall project.  
+
+---
+
+## 🚀 **Setup Instructions**
+### 1️⃣ **Clone the Repository**
+```bash
+git clone https://github.com/gbs0116/Database-WebApp.git
+cd Database-WebApp
+
